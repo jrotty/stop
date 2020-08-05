@@ -7,7 +7,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * @package 游客止步
  * @author 张老师
  * @version 1.5
- * @link https://qqdie.com/archives/stop-plugin-typecho.html
+ * @link https://qqdie.com
  */
 class stop_Plugin implements Typecho_Plugin_Interface
 {
@@ -22,7 +22,7 @@ class stop_Plugin implements Typecho_Plugin_Interface
     public static function activate()
     {
         Typecho_Plugin::factory('admin/common.php')->begin = array('stop_Plugin', 's');
-        Typecho_Plugin::factory('Widget_User')->logout = array('stop_Plugin', 'm');
+        Typecho_Plugin::factory('Widget_Logout')->logout = array('stop_Plugin', 'm');
     }
 
     /**
