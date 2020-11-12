@@ -5,7 +5,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * 游客止步，后台所有界面不允许进入，需要管理员在前台登录后才允许进入后台页面；同时附件页面不允许非管理员用户访问！
  * 
  * @package 游客止步
- * @author 张老师
+ * @author 泽泽社长
  * @version 1.6
  * @link https://qqdie.com/archives/stop-plugin-typecho.html
  */
