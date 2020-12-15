@@ -7,7 +7,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * @package 游客止步
  * @author 张老师
  * @version 1.7
- * @link https://qqdie.com/archives/stop-plugin-typecho.html
+ * @link https://zezeshe.com/archives/stop-plugin-typecho.html
  */
 class stop_Plugin implements Typecho_Plugin_Interface
 {
